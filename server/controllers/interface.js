@@ -732,11 +732,11 @@ class interfaceController extends baseController {
         params.method
       );
       if (checkRepeat > 0) {
-        return (ctx.body = yapi.commons.resReturn(
-          null,
-          401,
-          '已存在的接口:' + params.path + '[' + params.method + ']'
-        ));
+        // return (ctx.body = yapi.commons.resReturn(
+        //   null,
+        //   401,
+        //   '已存在的接口:' + params.path + '[' + params.method + ']'
+        // ));
       }
     }
 
